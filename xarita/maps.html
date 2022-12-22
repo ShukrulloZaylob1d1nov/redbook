@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Map</title>
+
+
+     <!-- css  link  start -->
+     <link rel="stylesheet" href="maps.css">
+     <!-- css  link  end -->
+
+
+     <!-- font awesome  start -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- font awesome  end -->
+
+     <!-- google fonts  start -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,500&display=swap" rel="stylesheet">
+     <!-- google fonts  end -->
+
+     <!-- box icons start -->
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     <!-- box icons end -->
+
+</head>
+<body>
+     
+     <section class="section-map-part">
+
+          <!-- ******************************** header add file start -->
+          <header>
+               <div class="container">
+                    <nav>
+                         <div class="brend-logo">
+                              <img src="image/logo.png" alt="...">
+                              <span class="logo-name">Red Map Uzbekistan</span>
+                         </div>
+                         <ul>
+                              <li>
+                                   <a href="#">YANGILIKLAR</a>
+                              </li>
+                              <li>
+                                   <a class="active" href="#">XARITA</a>
+                              </li>
+                              <li>
+                                   <a href="#">ECO-MASLAHAT</a>
+                              </li>
+                              <li>
+                                   <a href="#">ALOQA</a>
+                              </li>
+                         </ul>
+                    </nav>
+               </div>
+          </header>
+          <!-- ******************************** header add file end -->
+
+          <!-- sidebar ***************************************** -->
+          <div class="row">
+               <div class="sidebar">
+                    <div class="sidebar-body">
+                         <div class="links-wrapper">
+                              <div class="link-wrapper">
+                                   <span>Andijon viloyati</span>
+                                   <div class="icon">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                   </div>
+                              </div>
+                              <div class="link-content" id="tab-content-1">
+                                   <div class="change">O'simliklar</div>
+                                   <div class="change">Hayvonlar</div>
+                              </div>
+                         </div>
+                         <div class="links-wrapper">
+                              <div class="link-wrapper">
+                                   <span>Buxoro viloyati</span>
+                                   <div class="icon">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                   </div>
+                              </div>
+                              <div class="link-content" id="tab-content-1">
+                                   <div class="change">O'simliklar</div>
+                                   <div class="change">Hayvonlar</div>
+                              </div>
+                         </div>
+                         <div class="links-wrapper">
+                              <div class="link-wrapper">
+                                   <span>Fargʻona viloyati</span>
+                                   <div class="icon">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                   </div>
+                              </div>
+                              <div class="link-content" id="tab-content-1">
+                                   <div class="change">O'simliklar</div>
+                                   <div class="change">Hayvonlar</div>
+                              </div>
+                         </div>
+                         <div class="links-wrapper">
+                              <div class="link-wrapper">
+                                   <span>Jizzax viloyati</span>
+                                   <div class="icon">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                   </div>
+                              </div>
+                              <div class="link-content" id="tab-content-1">
+                                   <div class="change">O'simliklar</div>
+                                   <div class="change">Hayvonlar</div>
+                              </div>
+                         </div>
+                         <div class="links-wrapper">
+                              <div class="link-wrapper">
+                                   <span>Xorazm viloyati</span>
+                                   <div class="icon">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                   </div>
+                              </div>
+                              <div class="link-content" id="tab-content-1">
+                                   <div class="change">O'simliklar</div>
+                                   <div class="change">Hayvonlar</div>
+                              </div>
+                         </div>
+                         <div class="links-wrapper">
+                              <div class="link-wrapper">
+                                   <span>Namangan viloyati</span>
+                                   <div class="icon">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                   </div>
+                              </div>
+                              <div class="link-content" id="tab-content-1">
+                                   <div class="change">O'simliklar</div>
+                                   <div class="change">Hayvonlar</div>
+                              </div>
+                         </div>
+                         <div class="links-wrapper">
+                              <div class="link-wrapper">
+                                   <span>Navoiy viloyati</span>
+                                   <div class="icon">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                   </div>
+                              </div>
+                              <div class="link-content" id="tab-content-1">
+                                   <div class="change">O'simliklar</div>
+                                   <div class="change">Hayvonlar</div>
+                              </div>
+                         </div>
+                         <div class="links-wrapper">
+                              <div class="link-wrapper">
+                                   <span>Qashqadaryo viloyati</span>
+                                   <div class="icon">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                   </div>
+                              </div>
+                              <div class="link-content" id="tab-content-1">
+                                   <div class="change">O'simliklar</div>
+                                   <div class="change">Hayvonlar</div>
+                              </div>
+                         </div>
+                         <div class="links-wrapper">
+                              <div class="link-wrapper">
+                                   <span>Qoraqalpogʻiston R</span>
+                                   <div class="icon">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                   </div>
+                              </div>
+                              <div class="link-content" id="tab-content-1">
+                                   <div class="change">O'simliklar</div>
+                                   <div class="change">Hayvonlar</div>
+                              </div>
+                         </div>
+                         <div class="links-wrapper">
+                              <div class="link-wrapper">
+                                   <span>Samarqand viloyati</span>
+                                   <div class="icon">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                   </div>
+                              </div>
+                              <div class="link-content" id="tab-content-1">
+                                   <div class="change">O'simliklar</div>
+                                   <div class="change">Hayvonlar</div>
+                              </div>
+                         </div>
+                         <div class="links-wrapper">
+                              <div class="link-wrapper">
+                                   <span>Sirdaryo viloyati</span>
+                                   <div class="icon">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                   </div>
+                              </div>
+                              <div class="link-content" id="tab-content-1">
+                                   <div class="change">O'simliklar</div>
+                                   <div class="change">Hayvonlar</div>
+                              </div>
+                         </div>
+                         <div class="links-wrapper">
+                              <div class="link-wrapper">
+                                   <span>Surxondaryo viloyati</span>
+                                   <div class="icon">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                   </div>
+                              </div>
+                              <div class="link-content" id="tab-content-1">
+                                   <div class="change">O'simliklar</div>
+                                   <div class="change">Hayvonlar</div>
+                              </div>
+                         </div>
+                         <div class="links-wrapper">
+                              <div class="link-wrapper">
+                                   <span>Toshkent viloyati</span>
+                                   <div class="icon">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                   </div>
+                              </div>
+                              <div class="link-content" id="tab-content-1">
+                                   <div class="change">O'simliklar</div>
+                                   <div class="change">Hayvonlar</div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <!-- sidebar ***************************************** -->
+     
+               <!-- map content ************************************* -->
+               <div class="map-content">
+                    <div id="map"></div>
+                    <div class="modal-content">
+                         <div class="modal-content-info">
+                              <img src="./image/birds.png" alt="">
+                              <p class="modal-name">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet illo facere ipsa, pariatur optio exercitationem suscipit, delectus sit similique ad veniam temporibus repudiandae repellat doloremque! Eveniet commodi obcaecati esse laborum fugit, quae aliquid quos, totam quis atque doloremque vero veritatis sunt optio aut nemo laboriosam fuga quo magni voluptas voluptate?</p>
+                         </div>
+                    </div>
+                    </div>
+               </div>
+               <!-- map content ************************************* -->     
+          </div>    
+     </section>
+  
+     <!-- ********************************* footer  add  file  start -->
+     <footer class="footer">
+          <div class="col_left"><a href="#">Red Map Uzbekistan 2022</a></div>
+          <div class="col_center">
+            <span>© Barcha huquqlar himoyalangan</span>
+          </div>
+          <div class="col_right">
+            <a href="#" class="fuuter_icon">
+              <i class="bx bxl-facebook"></i>
+            </a>
+            <a href="#" class="fuuter_icon">
+              <i class="bx bxl-instagram-alt"></i>
+            </a>
+            <a href="#" class="fuuter_icon">
+              <i class="bx bxl-twitter"></i>
+            </a>
+            <a href="#" class="fuuter_icon">
+              <i class="bx bxl-linkedin"></i>
+            </a>
+            <a href="#" class="fuuter_icon">
+              <i class="bx bxl-telegram"></i>
+            </a>
+          </div>
+        </footer>
+     <!-- ********************************* footer  add  file  end -->
+
+     <!-- js link  start -->
+     <script src="maps.js"></script>
+     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=c416d978-d245-4cb7-ab20-de5f357a01e9" type="text/javascript"></script>
+    <script src="regions.js" type="text/javascript"></script>
+     <!-- js link  end -->
+</body>
+</html>
